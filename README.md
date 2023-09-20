@@ -83,7 +83,11 @@ The web application will offer the following features:
 
 1. Create a spring boot project using https://start.spring.io/ for student service,course service and eureka server.
 2. Go to server in the debug window in the bottom of the eclipse
+3. Connect the apache tomcat server v 9.0 for the oracle server
+4. Install in the the server connection dialog box
 
 ###### 5.2 Configuring JAVA and Oracle Integration
 
-<<Instructions on adding the required dependencies and configuration to JAVA with Oracle.>>
+1. Add the spring jpa, spring web dependencies in the pom.xml file in the service project that is created
+2. Connection is made in SQL Developer using jdbc dependency.
+3. Connect the SOAP.UI for the get mapping, put mapping and post mapping.
